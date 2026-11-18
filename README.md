@@ -30,7 +30,7 @@ Untuk memanggil fungsi `Inject-Docx` langsung melalui terminal PowerShell, lakuk
 
 ```powershell
 # Memuat skrip ke dalam sesi terminal
-. C:\scripts\docx-embeddedhtml-injection.ps1
+. C:\scripts\16htmli.ps1
 
 # Menjalankan fungsi injeksi
 Inject-Docx -Path "C:\Lokasi\Dokumen\test.docx" -HtmlBlock "<h3>Uji Injeksi HTML</h3>"
@@ -39,7 +39,7 @@ Inject-Docx -Path "C:\Lokasi\Dokumen\test.docx" -HtmlBlock "<h3>Uji Injeksi HTML
 Jika Anda ingin memanggil fungsi ini dari dalam skrip PowerShell lain, cukup sertakan baris berikut di bagian atas skrip Anda:
 
 ```powershell
-. C:\scripts\docx-embeddedhtml-injection.ps1
+. C:\scripts\16htmli.ps1
 ```
 
 ### Rincian Parameter Fungsi
